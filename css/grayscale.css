@@ -76,6 +76,9 @@ a {
     #main-nav .navbar-nav .nav-item:active, #main-nav .navbar-nav .nav-item:focus {
       outline: none;
       background-color: transparent; }
+    #main-nav .navbar-nav .nav-item.facebook {
+      margin-bottom: 10px;
+      margin-top: 10px; }
   @media (min-width: 992px) {
     #main-nav {
       padding-top: 20px;
@@ -90,6 +93,10 @@ a {
         font-size: 60px;
         letter-spacing: -4.5px;
         margin-top: -6px; }
+      #main-nav .nav-item.facebook {
+        margin-bottom: 0 !important;
+        margin-left: 10px;
+        margin-top: 4px !important; }
       #main-nav.navbar-shrink {
         background: black;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);

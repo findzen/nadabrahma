@@ -98,6 +98,11 @@ a {
         outline: none;
         background-color: transparent;
       }
+
+      &.facebook {
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
     }
   }
 
@@ -117,6 +122,12 @@ a {
       font-size: 60px;
       letter-spacing: -4.5px;
       margin-top: -6px;
+    }
+
+    .nav-item.facebook {
+      margin-bottom: 0 !important;
+      margin-left: 10px;
+      margin-top: 4px !important;
     }
 
     &.navbar-shrink {
